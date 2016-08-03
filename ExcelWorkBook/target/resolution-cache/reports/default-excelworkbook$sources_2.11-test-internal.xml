@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="excelworkbook$sources_2.11"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160801083506"/>
+	<dependencies>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.14" status="release" pubdate="20160307071049" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2898" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.pom"/>
+				<caller organisation="default" name="excelworkbook$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14" rev-constraint-default="3.14" rev-constraint-dynamic="3.14" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="1286511" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi-ooxml\jars\poi-ooxml-3.14.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.jar"/>
+					</artifact>
+					<artifact name="poi-ooxml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="949835" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi-ooxml\srcs\poi-ooxml-3.14-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.virtuald" name="curvesapi">
+			<revision name="1.03" status="release" pubdate="20151026122106" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/virtuald/curvesapi" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="BSD License" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2706" time="0" location="C:\Users\seino\.ivy2\cache\com.github.virtuald\curvesapi\ivy-1.03.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.03/curvesapi-1.03.pom"/>
+				<caller organisation="default" name="excelworkbook$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.03" rev-constraint-default="1.03" rev-constraint-dynamic="1.03" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="curvesapi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="140064" time="0" location="C:\Users\seino\.ivy2\cache\com.github.virtuald\curvesapi\srcs\curvesapi-1.03-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.03/curvesapi-1.03-sources.jar"/>
+					</artifact>
+					<artifact name="curvesapi" type="jar" ext="jar" status="no" details="" size="92241" time="0" location="C:\Users\seino\.ivy2\cache\com.github.virtuald\curvesapi\jars\curvesapi-1.03.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/virtuald/curvesapi/1.03/curvesapi-1.03.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.14" status="release" pubdate="20160307065640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3089" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi\ivy-3.14.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/poi/poi/3.14/poi-3.14.pom"/>
+				<caller organisation="default" name="excelworkbook$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.14" rev-constraint-default="3.14" rev-constraint-dynamic="3.14" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="poi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2285173" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi\srcs\poi-3.14-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi/3.14/poi-3.14-sources.jar"/>
+					</artifact>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="2528204" time="0" location="C:\Users\seino\.ivy2\cache\org.apache.poi\poi\jars\poi-3.14.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/poi/poi/3.14/poi-3.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106231500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<metadata-artifact status="no" details="" size="10476" time="0" location="C:\Users\seino\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="excelworkbook$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="C:\Users\seino\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="C:\Users\seino\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160309131604" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\seino\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="excelworkbook$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5744974" time="0" location="C:\Users\seino\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="C:\Users\seino\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
