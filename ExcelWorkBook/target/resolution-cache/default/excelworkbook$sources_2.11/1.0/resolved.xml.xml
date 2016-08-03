@@ -4,7 +4,7 @@
 		module="excelworkbook$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160801083506"
+		publication="20160803114153"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

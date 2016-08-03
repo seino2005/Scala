@@ -552,7 +552,7 @@ object ExcelWorkBook {
     copyExcel.createCellStyle
 
     val revision = """.*_(R[\d\._\-]+).xls""".r
-    val excelList = lsExcel("D:\\DevEnv\\P4_Root\\ATJ\\TSE\\UpdateNotice")
+    val excelList = lsExcel(args(0))
     // loop :Excel file
     excelList.foreach { file =>
       val revision(rev) = file
@@ -568,29 +568,8 @@ object ExcelWorkBook {
     }
 
 
-
-  /*
-    val excel = new ExcelWorkBook()
-    //excel.createWorkbook()
-    excel.bookRead("B:\\Data\\work\\Scala\\ExcelWorkBook\\UN_for_translate_N_R1.04_01.xls")
-
-    val copyExcel = new ExcelWorkBook()
-    copyExcel.createWorkbook(FileType.XLSX)
-    copyExcel.createCellStyle
-    excel.getSheetNameMap.foreach{
-      case(key,value) if (key == "UN_Manuscript") => {
-        excel.selectSheet(key)
-        copyExcel.copySheet( excel.getSheet )
-      }
-      case(key,value) => excel.removeSheet(key)
-    }
-
-    //  val sheetData = excel.getSheetData("UN_Manuscript")
-    //  println(sheetData)
-*/
-
     // save
-    copyExcel.bookSave("B:\\Data\\work\\Scala\\ExcelWorkBook\\UN_for_translate_N_all.xlsx")
+    copyExcel.bookSave("result.xlsx")
 
 
     println("end")
